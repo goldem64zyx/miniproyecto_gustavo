@@ -1,0 +1,28 @@
+
+*** These modified files were found in JOE when it aborted on Wed May 26 09:30:50 2021
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+intl
+mbstring
+extension
+curl
+
+*** File '(Unnamed)'
+/var/www/html/btc04/btc04_Santiago/.git/COMMIT_EDITMSG
+/var/www/html/btc04/-btc04_adriana/.git/COMMIT_EDITMSG
+codeingniter/app/Views/welcome_message.php
+/var/www/html/btc04/Btc04_Brandon/.git/COMMIT_EDITMSG
+/var/www/html/btc04/Btc04_Brandon/.git/MERGE_MSG
+.env
+.env
+app/Config/App.php
+.env
+.env
+index.php
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
