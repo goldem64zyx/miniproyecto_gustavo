@@ -8,7 +8,7 @@
 .LSOverride
 
 app/Config
-
+writable/
 # OS X Thumbnails
 ._*
 
