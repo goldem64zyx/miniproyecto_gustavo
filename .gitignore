@@ -7,7 +7,7 @@
 .AppleDouble
 .LSOverride
 
-app/Config
+app/Config/
 writable/
 # OS X Thumbnails
 ._*
