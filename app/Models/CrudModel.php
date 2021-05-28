@@ -30,4 +30,10 @@ class CrudModel extends Model{
         return $Nombres->update();
     }
 
+    public function eliminar($idNombre){
+        $Nombres = $this->db->table('personas');
+        $Nombres->where($idNombre);
+        return $Nombres->delete();
+    }
+
 }

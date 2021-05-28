@@ -62,6 +62,17 @@ class Crud extends BaseController
 
 	public function eliminar($idNombre){
 
+		$CrudModel = new CrudModel();
+		$data = ["id_nombre" => $idNombre];
+		$respuesta = $CrudModel->eliminar($data);
+
+		if ($respuesta){
+			return redirect()->to(base_url().'/index.php')->with('mensaje','4');
+		}else{
+			return redirect()->to(base_url().'/index.php')->with('mensaje','5');
+		}
+
+
 		
 	}
 

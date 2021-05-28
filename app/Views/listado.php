@@ -83,7 +83,11 @@
         swal(':D','Actualizado correctamente!!','success');
       }else if(mensaje == '3'){
         swal(':(','No se actualizo correctamente!!','error');
-      }  
+      }else if(mensaje == '4'){
+        swal(':D','Eliminado correctamente!!','success');
+      }else if(mensaje == '5'){
+        swal(':(','No se elimino correctamente!!','error');
+      }    
     }
    
   </script>
